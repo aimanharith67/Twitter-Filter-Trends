@@ -1,0 +1,89 @@
+h1, p {
+  font-family: Lato;
+}
+
+.form-select{
+  width: 200px !important;
+  margin-right: 10px;
+}
+
+.dropdown{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #64addd;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 999px;
+}
+
+li > a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+li:hover {
+  background-color: #6f7477;
+  cursor: pointer;
+}
+
+li:hover > a {
+  color: #e4eaee;
+}
+
+.tweet_volume {
+  font-size: 12px;
+  background-color: var(--primary-color);
+  color: #0c0c0c;
+  border-radius: 999px;
+  padding: 2px 4px;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+li:hover .tweet_volume {
+  color: var(--primary-color);
+  background-color: #4a718d;
+}
+
+.logo {
+  margin: 0 16px;
+  width: 44px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  background-color: #afd0e5;
+  padding: 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  height: 16px;
+  width: 16px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location:hover {
+  background-color: #6eafaf;
+}
+
+.content {
+  max-width: 960px;
+  padding-top: 20px;
+  margin: auto;
+}
